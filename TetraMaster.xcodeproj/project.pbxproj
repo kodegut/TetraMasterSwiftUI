@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222B788D2572A62E002F784A /* TetraMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B788C2572A62E002F784A /* TetraMasterApp.swift */; };
+		222B788F2572A62E002F784A /* TetraMasterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B788E2572A62E002F784A /* TetraMasterGame.swift */; };
+		222B78912572A632002F784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222B78902572A632002F784A /* Assets.xcassets */; };
+		222B78942572A632002F784A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222B78932572A632002F784A /* Preview Assets.xcassets */; };
+		222B789D2572A82E002F784A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B789C2572A82E002F784A /* Stack.swift */; };
+		222B78A22572C1B8002F784A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B78A12572C1B8002F784A /* Card.swift */; };
+		222B78AA2572C9AC002F784A /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B78A92572C9AC002F784A /* GameData.swift */; };
+		222B78B42572DDE4002F784A /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B78B32572DDE4002F784A /* GameBoard.swift */; };
+		22423E4C2573C205002DD674 /* StartingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22423E4B2573C205002DD674 /* StartingScreen.swift */; };
+		22423E562573CA18002DD674 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22423E552573CA18002DD674 /* PlaySound.swift */; };
+		227641E0258A21BC0033F92F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227641DF258A21BC0033F92F /* Data.swift */; };
+		22775E3F258CB1350037D46F /* ShuffleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22775E3E258CB1350037D46F /* ShuffleScreen.swift */; };
+		22775E52258E205D0037D46F /* RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22775E51258E205C0037D46F /* RotationEffect.swift */; };
+		22775E57258E270F0037D46F /* ComputerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22775E56258E270F0037D46F /* ComputerBrain.swift */; };
+		22B5FA7C257D3B17008010AE /* ComputerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5FA7B257D3B17008010AE /* ComputerStack.swift */; };
+		22E9549E257403BE0000425A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9549D257403BE0000425A /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222B78892572A62E002F784A /* TetraMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetraMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222B788C2572A62E002F784A /* TetraMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetraMasterApp.swift; sourceTree = "<group>"; };
+		222B788E2572A62E002F784A /* TetraMasterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetraMasterGame.swift; sourceTree = "<group>"; };
+		222B78902572A632002F784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222B78932572A632002F784A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		222B78952572A632002F784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222B789C2572A82E002F784A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		222B78A12572C1B8002F784A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		222B78A92572C9AC002F784A /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		222B78B32572DDE4002F784A /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		22423E4B2573C205002DD674 /* StartingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingScreen.swift; sourceTree = "<group>"; };
+		22423E552573CA18002DD674 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		227641DF258A21BC0033F92F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		22775E3E258CB1350037D46F /* ShuffleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleScreen.swift; sourceTree = "<group>"; };
+		22775E51258E205C0037D46F /* RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffect.swift; sourceTree = "<group>"; };
+		22775E56258E270F0037D46F /* ComputerBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerBrain.swift; sourceTree = "<group>"; };
+		22B5FA7B257D3B17008010AE /* ComputerStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerStack.swift; sourceTree = "<group>"; };
+		22E9549D257403BE0000425A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222B78862572A62E002F784A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222B78802572A62E002F784A = {
+			isa = PBXGroup;
+			children = (
+				222B788B2572A62E002F784A /* TetraMaster */,
+				222B788A2572A62E002F784A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222B788A2572A62E002F784A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222B78892572A62E002F784A /* TetraMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222B788B2572A62E002F784A /* TetraMaster */ = {
+			isa = PBXGroup;
+			children = (
+				222B788C2572A62E002F784A /* TetraMasterApp.swift */,
+				222B788E2572A62E002F784A /* TetraMasterGame.swift */,
+				22775E3E258CB1350037D46F /* ShuffleScreen.swift */,
+				22423E4B2573C205002DD674 /* StartingScreen.swift */,
+				222B78902572A632002F784A /* Assets.xcassets */,
+				222B78952572A632002F784A /* Info.plist */,
+				22B23E4425757AF1006EDEF5 /* Model */,
+				22B23E4525757B0C006EDEF5 /* HelperViews */,
+				227641C7258A1A160033F92F /* Resources */,
+				222B78922572A632002F784A /* Preview Content */,
+				22423E552573CA18002DD674 /* PlaySound.swift */,
+			);
+			path = TetraMaster;
+			sourceTree = "<group>";
+		};
+		222B78922572A632002F784A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				222B78932572A632002F784A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22423E512573C946002DD674 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		227641C7258A1A160033F92F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				227641DB258A1E810033F92F /* Cards */,
+				22423E512573C946002DD674 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		227641DB258A1E810033F92F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		22B23E4425757AF1006EDEF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				227641DF258A21BC0033F92F /* Data.swift */,
+				222B78A92572C9AC002F784A /* GameData.swift */,
+				222B78A12572C1B8002F784A /* Card.swift */,
+				22775E56258E270F0037D46F /* ComputerBrain.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		22B23E4525757B0C006EDEF5 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				22B5FA7B257D3B17008010AE /* ComputerStack.swift */,
+				22E9549D257403BE0000425A /* CardView.swift */,
+				222B789C2572A82E002F784A /* Stack.swift */,
+				222B78B32572DDE4002F784A /* GameBoard.swift */,
+				22775E51258E205C0037D46F /* RotationEffect.swift */,
+			);
+			name = HelperViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222B78882572A62E002F784A /* TetraMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222B78982572A632002F784A /* Build configuration list for PBXNativeTarget "TetraMaster" */;
+			buildPhases = (
+				222B78852572A62E002F784A /* Sources */,
+				222B78862572A62E002F784A /* Frameworks */,
+				222B78872572A62E002F784A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetraMaster;
+			productName = TetraMaster;
+			productReference = 222B78892572A62E002F784A /* TetraMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222B78812572A62E002F784A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					222B78882572A62E002F784A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 222B78842572A62E002F784A /* Build configuration list for PBXProject "TetraMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222B78802572A62E002F784A;
+			productRefGroup = 222B788A2572A62E002F784A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222B78882572A62E002F784A /* TetraMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222B78872572A62E002F784A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B78942572A632002F784A /* Preview Assets.xcassets in Resources */,
+				222B78912572A632002F784A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222B78852572A62E002F784A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B78AA2572C9AC002F784A /* GameData.swift in Sources */,
+				22775E52258E205D0037D46F /* RotationEffect.swift in Sources */,
+				22B5FA7C257D3B17008010AE /* ComputerStack.swift in Sources */,
+				22423E562573CA18002DD674 /* PlaySound.swift in Sources */,
+				222B788F2572A62E002F784A /* TetraMasterGame.swift in Sources */,
+				22E9549E257403BE0000425A /* CardView.swift in Sources */,
+				22423E4C2573C205002DD674 /* StartingScreen.swift in Sources */,
+				227641E0258A21BC0033F92F /* Data.swift in Sources */,
+				22775E3F258CB1350037D46F /* ShuffleScreen.swift in Sources */,
+				222B78B42572DDE4002F784A /* GameBoard.swift in Sources */,
+				222B789D2572A82E002F784A /* Stack.swift in Sources */,
+				222B788D2572A62E002F784A /* TetraMasterApp.swift in Sources */,
+				222B78A22572C1B8002F784A /* Card.swift in Sources */,
+				22775E57258E270F0037D46F /* ComputerBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		222B78962572A632002F784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222B78972572A632002F784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222B78992572A632002F784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TetraMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = UU9BN8Q98G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TetraMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TetraMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222B789A2572A632002F784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TetraMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = UU9BN8Q98G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TetraMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TetraMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222B78842572A62E002F784A /* Build configuration list for PBXProject "TetraMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B78962572A632002F784A /* Debug */,
+				222B78972572A632002F784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222B78982572A632002F784A /* Build configuration list for PBXNativeTarget "TetraMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B78992572A632002F784A /* Debug */,
+				222B789A2572A632002F784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222B78812572A62E002F784A /* Project object */;
+}
