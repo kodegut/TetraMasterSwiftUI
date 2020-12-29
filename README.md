@@ -10,7 +10,7 @@ To get the original feel of the in-game version I used many original resources. 
 
 ## Basic facts about the game:
 
-- Matchmaking and battles were inspired by the original Card Game (LINK) 
+- Matchmaking and battles were inspired by the original (paper) Card Game
 - The player can choose 5 out of 9 random cards and can reshuffle the given cards if needed
 - The computer gets 5 random cards
 - The beginner of every match is set randomly
