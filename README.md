@@ -4,7 +4,7 @@
 
 ## About the project:
 
-As a fan of the Final Fantasy franchise I chose FF9 Tetra Master to look into SwiftUI the new method to build UI for apple devices (somewhat replacing/supplementing storyboards).
+I chose Final Fantasy IX's Tetra Master to look into SwiftUI the new method to build UI for apple devices (somewhat replacing/supplementing storyboards).
 To get the original feel of the in-game version I used many original resources. According to https://www.jp.square-enix.com/caution.html Square Enix seems to be very restrictive about copyright infringements, so I stripped the code of all resources including images and sound that are from the original game. 
 
 
